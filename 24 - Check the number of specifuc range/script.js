@@ -7,4 +7,4 @@ function check_number(num) {
 }
 
 check_number(45);
-check_number(65);// here when i use two peramitar then it check it 2 numbers
+check_number(65);// here when i use two parameter then it check it 2 numbers
