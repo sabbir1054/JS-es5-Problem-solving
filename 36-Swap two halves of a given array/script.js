@@ -14,3 +14,5 @@ function halv_array_swap(iarra) {
 
 console.log(halv_array_swap([1, 3, 5, 4, 6, 2]));
 console.log(halv_array_swap([1, 3, 5, 4, 2]));
+
+
