@@ -7,7 +7,8 @@ function findSameNumber(arr1, arr2) {
             }
         }
     }
-    return result;
+    console.log(result); //return 
 }
 
-console.log(findSameNumber([1,2,3,4], [1,2,3,4]));
+/* console.log(findSameNumber([1,2,3,4], [1,2,3,4])); */
+findSameNumber([1, 2, 3, 4], [1, 2, 3, 4]);
