@@ -15,7 +15,7 @@ for (var i = 2; i <= 12; i++){
 console.log(fibo);
 
 
-/* now practice with recursive */
+/* now practice with function*/
 
 function fibonacci(n) {
     var fibo = [0, 1];
@@ -26,4 +26,25 @@ function fibonacci(n) {
 }
 
 var result = fibonacci(10);
- console.log(result);
+console.log(result);
+ 
+
+/* With recursive way */
+
+function fibonacci(n) {
+    if (n == 0) {
+        return [0];
+    }
+    else if (n == 1) {
+        return [0, 1];
+    }
+    else {
+       //calculate array with nth element 
+        var fibo = fibonacci(n - 1);
+        var nextElement = fibo[n - 1] + fibo[n - 2];
+        fibo.push(nextElement);
+        return fibo;
+    }
+}
+var result = fibonacci(12);
+console.log(result);
