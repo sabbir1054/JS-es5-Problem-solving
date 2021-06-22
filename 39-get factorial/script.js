@@ -11,7 +11,7 @@ function getFactorial(n) {
 var result = getFactorial(5);
 console.log(result);
 
- 
+ 0
 
 function getFactorial(num) {
     let factorial = 1;
@@ -24,4 +24,15 @@ function getFactorial(num) {
 }
 var result = getFactorial(10);
 
+console.log(result); 
+/*  Solve it with recursive way */
+function factorial(n) {
+    if (n == 0) {
+    return 1;
+} else {
+    return n * factorial(n - 1);
+    }
+    
+}
+var result = factorial(5);
 console.log(result);
