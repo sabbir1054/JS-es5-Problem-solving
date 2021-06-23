@@ -12,4 +12,4 @@ function removeDuplicate(name) {
 }
 
 var result = removeDuplicate([5, 8, 74, 5, 2, 8, 5, 74, 8, 13, 17]);
-console.log(result);
+console.log(result);  
