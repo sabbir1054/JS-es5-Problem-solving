@@ -1,4 +1,4 @@
-function findDuplicate(name) {
+function removeDuplicate(name) {
      var uniqueName = [];
     for (var i = 0; i < name.length; i++){
         var element = name[i];
@@ -11,5 +11,5 @@ function findDuplicate(name) {
 
 }
 
-var result = findDuplicate([5, 8, 74, 5, 2, 8, 5, 74, 8, 13, 17]);
+var result = removeDuplicate([5, 8, 74, 5, 2, 8, 5, 74, 8, 13, 17]);
 console.log(result);
