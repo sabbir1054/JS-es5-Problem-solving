@@ -58,16 +58,3 @@ function brickCalculator(numberOfFloor) {
 var numberOfTotalBricks = brickCalculator(2);
 console.log(numberOfTotalBricks);
 
-
-/* Assignment 04 Find Tiny Name of friend */
-
-function tinyFriend(friendsName) {
-    for (var i = 0; i < friendsName.length; i++){
-        var checkName = friendsName[i];
-        var checkSizeOfName = checkName.length;
-        var tinySizeOfName = min();
-        console.log(tinySizeOfName);
-    }
-}
-
-tinyFriend(['sabbir', 'khan', 'shimol', 'salaman']);
